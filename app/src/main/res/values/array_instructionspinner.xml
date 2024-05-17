@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="instructionList">
+        <item>지시사항 없음</item>
+        <item>식사 전 복용</item>
+        <item>식사 후 복용</item>
+        <item>공복 시 복용</item>
+        <item>물과 함께 복용</item>
+        <item>우유와 함께 복용 금지</item>
+        <item>설탕 섭취 금지</item>
+        <item>지방이 많은 음식 섭취 금지</item>
+        <item>채소 섭취 권장</item>
+        <item>철분이 풍부한 음식 섭취 권장</item>
+    </string-array>
+</resources>

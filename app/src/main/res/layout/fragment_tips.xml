@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colour8">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="건강 팁"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="1. 건강한 식습관을 유지하세요."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="여러 종류의 음식을 섭취하세요. 과일, 채소, 두류, 견과류 및 전곡을 포함한 다양한 음식을 섭취하세요. 성인은 하루에 적어도 과일과 채소를 5인분(400g) 섭취해야 합니다. 음식에 항상 채소를 포함하여 과일과 채소의 섭취량을 늘릴 수 있습니다. 신선한 과일과 채소를 간식으로 섭취하고, 다양한 종류의 과일과 채소를 먹으며, 그리고 계절에 맞게 과일과 채소를 섭취하세요."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="2. 소금과 설탕 섭취량을 줄이세요."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="대한민국 사람들은 권장량의 두 배 이상에 해당하는 나트륨을 섭취하며, 이는 고혈압의 위험을 증가시켜 심장 질환과 뇌졸중의 위험을 증가시킵니다. 대부분의 사람들은 소금을 통해 나트륨을 섭취합니다. 하루에 소금 섭취량을 5g로 줄이세요. 이는 대략 한 작은 숟가락 정도에 해당합니다. 식사 준비 시 소금, 간장, 고추장 및 기타 고나트륨 조미료의 양을 제한하여 소금 섭취량을 줄이는 것이 쉽습니다. 식사 테이블에서 소금, 양념 및 조미료를 제거하고, 짠 간식을 피하며, 낮은 나트륨 제품을 선택하는 것이 좋습니다."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="3. 해로운 지방 섭취량을 줄이세요."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="섭취하는 지방은 총 에너지 섭취량의 30% 미만이어야 합니다. 이렇게 함으로써 건강하지 않은 체중 증가와 비전염성 질환을 예방할 수 있습니다. 다양한 종류의 지방이 있지만, 포화 지방과 트랜스 지방보다는 불포화 지방이 선호됩니다. 세계 보건 기구(WHO)는 포화 지방을 총 에너지 섭취량의 10% 미만으로 줄이고, 트랜스 지방을 총 에너지 섭취량의 1% 미만으로 줄이며, 포화 지방과 트랜스 지방을 불포화 지방으로 교체하는 것을 권장합니다."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="4. 알코올을 해로운 방식으로 사용하는 것을 피하세요."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="알코올을 마시는 것에 안전한 수준은 없습니다. 알코올을 소비하면 알코올 의존을 포함한 정신 및 행동 장애, 간경변증, 일부 암 및 심장 질환과 같은 주요 비전염성 질환, 그리고 폭력 및 도로 충돌에서 비롯된 부상과 같은 건강 문제가 발생할 수 있습니다."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="5. 흡연을 하지 마세요."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="담배 흡연은 폐 질환, 심장 질환 및 뇌졸중과 같은 비전염성 질환을 유발합니다. 담배는 직접 흡연자뿐만 아니라 간접 흡연으로 인해 비흡연자에게도 피해를 줍니다. 현재 대한민국 인구의 20% 가량 담배를 피우고 있지만 흡연자 중 10명 중 6~7명은 금연에 관심을 가지거나 계획하고 있습니다."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

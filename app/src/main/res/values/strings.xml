@@ -2,5 +2,6 @@
     <string name="app_name">McR Medicine Reminder</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="donate_txt">The accumulation of unwanted medicines at home can result in accidental ingestion, or lead to confusion, and out-of-date medicines can become toxic or ineffective. Disposal of these medicines in general household waste means they can end up in landfill or contaminate waterways and affect animal and plant life and potentially human life.</string>
+    <string name="donate_txt">원치 않는 의약품이 집에 쌓이면 실수로 섭취하거나 혼동을 일으킬 수 있으며, 유통기한이 지난 의약품은 독성이 있거나 효과가 없을 수 있습니다. 이러한 의약품을 일반 가정 쓰레기로 버리면 매립되거나 수로를 오염시켜 동식물과 잠재적으로 사람의 생명에 영향을 미칠 수 있습니다.
+    가장 좋은 방법은 - 복용하지 않는 의약품을 약국에 반납하거나 가까운 NGO에 기부하는 것입니다.</string>
 </resources>
